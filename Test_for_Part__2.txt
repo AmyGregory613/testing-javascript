@@ -1,0 +1,9 @@
+Drive For Some Given Time Tests:
+
+    Verify that negative seconds throws an Error
+    Verify that zero seconds throws an Error
+    Verify that no seconds throws an Error
+    Verify that negative miles/second throws an Error
+    Verify that zero miles/second throws an Error
+    Verify that no seconds throws an Error
+    Verify that positive miles/second then the car drives the appropriate amount of miles.
