@@ -1,0 +1,11 @@
+this.driveForSomeTime = function (secondToDriveFor, milesPerSeconds) {
+     // Make sure secondToDriveFor and milesPerSeconds are valid.
+
+	 // Create variable to keep track of how many seconds have elapsed.
+     setInterval(function(self) {
+		// Increment seconds counter by 1
+		// call drive (remember, while you're in the interval function "self" is an alias for "this" so use it instead of "this"
+		// If the requested number of seconds have elapsed, stop interval
+     }, 1000, this);
+
+   };
